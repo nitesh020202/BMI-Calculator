@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Background Color Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://www.linkedin.com/in/nitesh-kumar-2169481a4/">Linkedin</a>
+        
+    </nav>
+    <a  id="clock" style="float: left;" name="clock "></a>
+    <a  id="date" style="float: right;" name="Date"></a>
+
+    <div class="container">
+        <h1>BMI CALCULATOR</h1>
+        <form>
+            <p><label>Height in CM: </label><input type="text" id="height" /></p>
+            <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+            <button type="submit">Calculate</button>
+            <div id="results"></div>
+            <div id="weight-guide">
+                <h3>BMI Weight Guide</h3>
+                <p id="uw">Under Weight = Less than 18.6</p>
+                <p id="nw">Normal Range = 18.6 and 24.9</p>
+                <p id="ow">Overweight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
